@@ -39,4 +39,4 @@ parse_df[parse_df == 0] <- ""
 output_filename <- paste0(get_column,"_parse.xlsx")
 write.xlsx(parse_df, file = output_filename, row.names = FALSE)
 
-#edited version 2
+
